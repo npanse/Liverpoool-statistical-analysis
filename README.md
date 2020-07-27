@@ -3,7 +3,7 @@
 Premier League data preprocessing and visualisation in Tableau.
 
 The data was obtained from http://www.football-data.co.uk/ and is stored in data master according to the seasons.
-Liverpool 2012-2020 notebook has all the preprocessing details alng with scatter plots generation.
+Liverpool 2012-2020 notebook has all the preprocessing details along with scatter plots generation.
 
 # Voronoi Diagram
 
