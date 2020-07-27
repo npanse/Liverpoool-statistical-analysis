@@ -5,13 +5,19 @@ Premier League data preprocessing and visualisation in Tableau.
 The data was obtained from http://www.football-data.co.uk/ and is stored in data master according to the seasons.
 Liverpool 2012-2020 notebook has all the preprocessing details alng with scatter plots generation.
 
-# Pitch Control
- 
-This repository is for plotting pitch control videos for 19 Liverpool goals throughout 2019. The tracking data was provided by LastRow, and the pitch control model was taken from Friends of Tracking. Look here for more:
+# Voronoi Diagram
 
-https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking
+The main sample file is ``liverpool_2019.csv``, which contains 19 goals scored by Livepool FC in 2019. The tracking data was provided by LastRow -
 
 https://github.com/Friends-of-Tracking-Data-FoTD/Last-Row
+
+You can get a feel for the dataset by checking the Jupyter Notebook included in this repository. Basic ploting is built on top of ``matplotlib``, and animations are built with ``moviepy``. The python file footyviz.py is used to draw Voronoi tessellations.
+
+# Pitch Control
+ 
+This repository is for plotting pitch control videos for 19 Liverpool goals throughout 2019.  The pitch control model was taken from Friends of Tracking -
+
+https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking
 
 Both the data files have 3459 entries, and the following list tells the indices for each goal.
 
